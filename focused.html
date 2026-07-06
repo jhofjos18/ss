@@ -19,10 +19,11 @@
             <div class="dropdown" id="select-univ">
                 <button class="dropdown-button">대학 선택(선택)</button>
                 <div class="dropdown-menu" hidden>
-                  <label class="univ"><input type="checkbox"> 대학1</label>
-                  <label class="univ"><input type="checkbox"> 대학2</label>
-                    <!--여기에 이제 대학 목록 체크박스로 넣는 코드-->
-                    <!--<label class="univ"><input type="checkbox"> 대학1</label> 이런 느낌?-->
+                  <label class="univ"><input type="checkbox" value="서울대"> 서울대</label>
+                  <label class="univ"><input type="checkbox" value="연세대"> 연세대</label>
+                  <label class="univ"><input type="checkbox" value="고려대"> 고려대</label>
+                  <label class="univ"><input type="checkbox" value="한양대"> 한양대</label>
+                  <label class="univ"><input type="checkbox" value="중앙대"> 중앙대</label>
                 </div>
             </div>
 
@@ -30,8 +31,12 @@
             <div class="dropdown" id="select-dicipline">
                 <button class="dropdown-button">계열 선택</button>
                 <div class="dropdown-menu" hidden>
-                  <label class="univ"><input type="checkbox"> 계열1</label>
-                    <!--여기에 이제 계열 목록 체크박스로 넣는 코드-->
+                  <label class="univ"><input type="checkbox" value="공학"> 공학</label>
+                  <label class="univ"><input type="checkbox" value="자연"> 자연</label>
+                  <label class="univ"><input type="checkbox" value="인문"> 인문</label>
+                  <label class="univ"><input type="checkbox" value="사회"> 사회</label>
+                  <label class="univ"><input type="checkbox" value="의약"> 의약</label>
+                  <label class="univ"><input type="checkbox" value="예체능"> 예체능</label>
                 </div>
             </div>
 
@@ -39,13 +44,7 @@
             <div class="dropdown" id="select-major">
                 <button class="dropdown-button">학과 선택</button>
                 <div class="dropdown-menu" hidden>
-                  <label class="univ">
-                    <input type="checkbox" value="학과1"> 학과1
-                  </label>
-                  <label class="univ">
-                    <input type="checkbox" value="학과2"> 학과2
-                  </label>
-                    <!--여기에 이제 학과 목록 체크박스로 넣는 코드-->
+                  <div class="univ">계열을 먼저 선택하면 학과 목록이 나타납니다.</div>
                 </div>
             </div>
 
