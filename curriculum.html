@@ -1,3 +1,43 @@
-<!--사용자가 입력한대로 유신고 형식에 맞게 표현-->
-
-<!--얘는 반응형으로 안할거면 굳이 js필요 없으니까 나중에 하는걸로-->
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="2026드림팀" />
+    <title>우리학교 선택과목 편제표</title>
+    <link rel="stylesheet" href="focused.css" />
+  </head>
+  <body>
+    <h4>우리학교 선택과목 편제표</h4>
+    <p>
+      선택과목 편제표는 학년별로 열리는 과목과 추천 조합을 확인하는 공간입니다.
+      아래 예시는 유신고 편제표 샘플입니다.
+    </p>
+    <table style="width:min(900px,100%);border-collapse:collapse;margin-top:24px;border:2px solid #222;">
+      <thead>
+        <tr style="background:#fffdf8;">
+          <th style="padding:12px;border:1px solid #222;">학년</th>
+          <th style="padding:12px;border:1px solid #222;">과목</th>
+          <th style="padding:12px;border:1px solid #222;">비고</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding:12px;border:1px solid #222;">1학년</td>
+          <td style="padding:12px;border:1px solid #222;">정보과학, 기술가정, 통합과학</td>
+          <td style="padding:12px;border:1px solid #222;">기초 탐색 과목</td>
+        </tr>
+        <tr>
+          <td style="padding:12px;border:1px solid #222;">2학년</td>
+          <td style="padding:12px;border:1px solid #222;">미적분, 물리학 I, 화학 I, 생명과학 I</td>
+          <td style="padding:12px;border:1px solid #222;">계열 탐색 추천</td>
+        </tr>
+        <tr>
+          <td style="padding:12px;border:1px solid #222;">3학년</td>
+          <td style="padding:12px;border:1px solid #222;">윤리와 사상, 경제, 한국사, 사회탐구</td>
+          <td style="padding:12px;border:1px solid #222;">진로별 보완 과목</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
